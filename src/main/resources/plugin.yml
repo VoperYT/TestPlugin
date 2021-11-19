@@ -1,0 +1,6 @@
+name: TestPlugin
+version: '${project.version}'
+main: me.voperyt.testplugin.TestPlugin
+api-version: 1.17
+authors: [ VoperYT ]
+description: Just a test plugin
