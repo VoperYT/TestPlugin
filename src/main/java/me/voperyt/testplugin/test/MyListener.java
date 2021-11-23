@@ -1,0 +1,8 @@
+package me.voperyt.testplugin.test;
+
+import org.bukkit.event.Listener;
+
+public class MyListener implements Listener {
+
+
+}
