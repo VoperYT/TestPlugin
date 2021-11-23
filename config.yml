@@ -1,0 +1,5 @@
+commands:
+  test:
+    description: gives the player a OP sword and 10 packs of diamond
+    usage: /test
+    permission: testplugin.testpermission
