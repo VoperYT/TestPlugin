@@ -10,15 +10,18 @@ import org.bukkit.inventory.ItemStack;
 
 public class MyListener implements Listener {
 
+    private Player player;
+    private ItemStack item;
+
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent event){
-        Player player = event.getPlayer();
+        this.player = event.getPlayer();
         event.setJoinMessage("Welcome, " + player + "!");
     }
 
     @EventHandler
     public void onPlayerKill(PlayerDropItemEvent event){
-        ItemStack item = event.getItemDrop().getItemStack();
+        this.item = event.getItemDrop().getItemStack();
         item.setAmount(2);
         event.getPlayer().getInventory().addItem(item);
     }
