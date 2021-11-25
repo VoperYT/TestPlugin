@@ -20,7 +20,7 @@ public class MyListener implements Listener {
     }
 
     @EventHandler
-    public void onPlayerKill(PlayerDropItemEvent event){
+    public void onPlayerDrop(PlayerDropItemEvent event){
         this.item = event.getItemDrop().getItemStack();
         item.setAmount(2);
         event.getPlayer().getInventory().addItem(item);
