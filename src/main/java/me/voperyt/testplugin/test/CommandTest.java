@@ -27,7 +27,7 @@ public class CommandTest implements CommandExecutor {
             netheriteSword.addEnchantment(Enchantment.FIRE_ASPECT,50);
             netheriteSword.addEnchantment(Enchantment.KNOCKBACK,100);
 
-            player.getInventory().addItem(diamond,netheriteSword);
+            player.getInventory().addItem(FluPotion.FLU_SWORD, SupremeAxe.SUPREME_AXE, diamond, netheriteSword);
 
         }
         return true;
