@@ -4,3 +4,7 @@ main: me.voperyt.testplugin.TestPlugin
 api-version: 1.17
 authors: [ VoperYT ]
 description: Just a test plugin
+commands:
+  test:
+    description: gives the player a OP sword and 10 packs of diamond
+    usage: /<command>
