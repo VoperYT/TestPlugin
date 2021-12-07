@@ -19,15 +19,15 @@ public class CommandTest implements CommandExecutor {
             ItemStack diamond = new ItemStack(Material.DIAMOND);
             diamond.setAmount(640);
 
-            // Creating a Netherite Sword itemStack
+            /*// Creating a Netherite Sword itemStack
             ItemStack netheriteSword = new ItemStack(Material.NETHERITE_SWORD);
 
             // Sharpness 1000 + Fire aspect 50 + Knockback 50
             netheriteSword.addEnchantment(Enchantment.DAMAGE_ALL, 1000);
             netheriteSword.addEnchantment(Enchantment.FIRE_ASPECT,50);
-            netheriteSword.addEnchantment(Enchantment.KNOCKBACK,100);
+            netheriteSword.addEnchantment(Enchantment.KNOCKBACK,100);*/
 
-            player.getInventory().addItem(FluPotion.FLU_SWORD, SupremeAxe.SUPREME_AXE, diamond, netheriteSword);
+            player.getInventory().addItem(FluPotion.FLU_SWORD, SupremeAxe.SUPREME_AXE, diamond);
 
         }
         return true;
